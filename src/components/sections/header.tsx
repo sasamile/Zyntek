@@ -32,7 +32,7 @@ export function Header() {
     >
       <div className="container">
         <div className="flex items-center justify-center md:justify-between">
-          <Logo className="h-9 w-auto" />
+          <Logo className="h-20 w-auto" />
           <NavItems />
         </div>
       </div>

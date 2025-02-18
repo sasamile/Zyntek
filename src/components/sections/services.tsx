@@ -6,7 +6,7 @@ export function Services() {
     <section id="services" className="pt-20 md:pt-24">
       <div className="container flex flex-col gap-32">
         <div className="flex flex-col items-center">
-          <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter">
+          <h2 className="text-5xl md:text-6xl font-medium text-center tracking-tighter ">
             Nuestros servicios
           </h2>
           <p className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto tracking-tight text-center mt-5">
@@ -17,7 +17,7 @@ export function Services() {
         <div className="flex flex-col items-center w-full max-w-3xl mx-auto">
           {services.map(
             ({ title, description, background, borderColor, color }, i) => (
-              <div key={i} className="sticky top-[20%] h-[100vh] max-w-[650px] w-full mx-auto">
+              <div key={i} className="sticky top-[20%] h-[100vh] max-w-[650px] w-full mx-auto px-10">
                 <div
                   style={{
                     transform: `rotate(${i % 2 === 0 ? -3 : 3}deg)`,
@@ -29,7 +29,7 @@ export function Services() {
                   )}
                 >
                   <h2
-                    className="text-5xl md:text-[75px] text-center tracking-tighter uppercase font-extrabold leading-[90%]"
+                    className="text-3xl md:text-[60px] text-center tracking-tighter uppercase font-extrabold leading-[90%] md:px-10"
                     style={{ color }}
                   >
                     {title}

@@ -136,7 +136,7 @@ export const teamMembers = [
   },
   {
     name: "James Fernando Galvis",
-    role: "CTO (Director de Tecnología)",
+    role: "Director de Tecnología",
     description: "Responsable del desarrollo e innovación tecnológica.",
     background: "bg-[linear-gradient(to_top_right,rgb(125,216,205,0.35),rgb(0,0,0,.2))]",
     borderColor: "border-[rgba(125,216,205,0.35)]",

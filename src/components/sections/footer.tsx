@@ -14,7 +14,9 @@ export function Footer() {
             <p>Villavicencio, Meta - Colombia</p>
           </div>
           <div className="max-md:hidden flex flex-col items-center">
-            <Logo className="h-9 w-auto" />
+            <h1 className="text-2xl md:leading-none font-semibold text-center tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text">
+              BUGZERO
+            </h1>
           </div>
           <div>
             <div className="flex mt-4 gap-5 text-white/40">

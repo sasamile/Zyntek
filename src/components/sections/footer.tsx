@@ -10,7 +10,7 @@ export function Footer() {
             <div className="md:hidden mb-4">
               <Logo className="h-9 w-auto" />
             </div>
-            <strong>&copy; 2024 garabatos</strong>
+            <strong>&copy; 2024 BUGZERO</strong>
             <p>Villavicencio, Meta - Colombia</p>
           </div>
           <div className="max-md:hidden flex flex-col items-center">

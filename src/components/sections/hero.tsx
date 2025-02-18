@@ -48,11 +48,11 @@ export function Hero() {
       <div className="relative container h-full flex items-center justify-center">
         <div>
           <h1 className="text-7xl md:text-8xl lg:text-9xl md:leading-none font-semibold text-center tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text">
-            Impacto Visual
+            BUGZERO
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/70 text-center mt-5 max-w-2xl mx-auto">
-            Damos vida a proyectos, para lograrlo nos sumergimos en una profunda
-            investigación creativa, creando conceptos visuales impactantes.
+            En BUGZERO, transformamos ideas en soluciones digitales innovadoras,
+            trabajando contigo en cada paso para hacerlas realidad.
           </p>
         </div>
       </div>

@@ -11,7 +11,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 
 const introductionText =
-  "¡Somos Garabatos, tu equipo creativo! Expertos en diseño gráfico, creación de marcas y diseño de productos, transformamos ideas en soluciones visuales impactantes.";
+  "Somos BUGZERO, la base fundamental para construir soluciones digitales sólidas y escalables. Transformamos ideas en plataformas tecnológicas innovadoras con un enfoque en modularidad, rendimiento y seguridad.";
 
 const words = introductionText.split(" ");
 

@@ -4,7 +4,6 @@ import co from "@/assets/images/co.png";
 import hato from "@/assets/images/hato.png";
 import specialized from "@/assets/images/specialized.png";
 
-import avatar1 from "@/assets/images/avatar-1.png";
 import avatar2 from "@/assets/images/avatar-2.png";
 import avatar3 from "@/assets/images/avatar-3.png";
 import avatar4 from "@/assets/images/avatar-4.png";
@@ -38,44 +37,44 @@ export const partnerships = [loducode, charito, hato, specialized, co];
 
 export const services = [
   {
-    title: "Diseño Gráfico",
+    title: " Desarrollo Movil",
     description:
-      "Transformamos diseños en arte, comprendiendo la función de cada elemento gráfico y transmitiendo un mensaje de manera precisa y adaptada a las necesidades.",
+      "Creamos apps nativas e híbridas con  React Native, optimizadas para iOS y Android. Implementamos funciones avanzadas como notificaciones push, integración con APIs y geolocalización, garantizando una experiencia fluida y eficiente",
     background: "bg-gradient-to-r from-purple-400/30 to-black",
     borderColor: "border-[rgba(102,77,127,0.35)]",
     color: "#b582eb",
   },
   {
-    title: "Branding",
+    title: "Desarrollo Web ",
     description:
-      "Creamos identidades visuales únicas, fusionando creatividad y estrategia para transmitir mensajes claros y alineados con los objetivos de cada proyecto.",
+      "Diseñamos y desarrollamos aplicaciones web dinámicas y escalables con React, Next.js y TypeScript. Nos enfocamos en rendimiento, accesibilidad y diseño responsive, además de crear CMS personalizados para una gestión eficiente del contenido.",
     background:
       "bg-[linear-gradient(to_top_right,rgb(125,216,205,0.35),rgb(0,0,0,.2))]",
     borderColor: "border-[rgba(125,216,205,0.35)]",
     color: "#7dd8cd",
   },
   {
-    title: "Animación",
+    title: "Backends Solidos",
     description:
-      "Utilizamos nuestra creatividad y experiencia para dar vida a proyectos a través de animaciones vibrantes y cautivadoras.",
+      "Desarrollamos APIs robustas y seguras con Django, Node.js y Express, utilizando bases de datos como PostgreSQL y Prisma. Aplicamos buenas prácticas en autenticación y seguridad, integrando sistemas como Clerk y Auth.js para proteger la información.",
     background:
       "bg-[linear-gradient(to_bottom_left,rgb(224,255,87,0.35),black)]",
     borderColor: "border-[rgba(224,255,87,0.35)]",
     color: "",
   },
   {
-    title: "Video",
+    title: "Optimización y Seguridad",
     description:
-      "Producimos, editamos y creamos videos creativos de una manera única, creando una narrativa impactante con un mensaje cautivador.",
+      "Garantizamos sitios web rápidos y seguros con pruebas de rendimiento, optimización SEO y estrategias de ciberseguridad. Protegemos los datos y fortalecemos la infraestructura tecnológica de cada proyecto.",
     background:
       "bg-[linear-gradient(to_top_right,rgb(125,216,205,0.35),rgb(0,0,0,.2))]",
     borderColor: "border-[rgba(125,216,205,0.35)]",
     color: "#7dd8cd",
   },
   {
-    title: "Fotografía",
+    title: "Inteligencia Artificial",
     description:
-      "Capturamos momentos únicos, creando imágenes que cuentan historias y transmiten emociones de manera visualmente impactante.",
+      "Optimizamos procesos con inteligencia artificial y automatización, implementando modelos de análisis de datos y algoritmos personalizados. Ayudamos a las empresas a mejorar la eficiencia con soluciones inteligentes y adaptadas a sus necesidades.",
     background: "bg-gradient-to-r from-[#f8b5d0]/30 to-black",
     borderColor: "border-[rgba(248,181,208,0.35)]",
     color: "#f8b5d0",
@@ -84,25 +83,19 @@ export const services = [
 
 export const testimonials = [
   {
-    text: "“This product has completely transformed how I manage my projects and deadlines”",
-    name: "Sophia Perez",
-    title: "Director @ Quantum",
-    avatarImg: avatar1,
-  },
-  {
     text: "“These AI tools have completely revolutionized our SEO entire strategy overnight”",
     name: "Jamie Lee",
     title: "Founder @ Pulse",
     avatarImg: avatar2,
   },
   {
-    text: "“Me encanto el diseño de marca y todo el profesionalismo que vi de parte de ustedes sin duda el mejor estudio creativo. ¡Gracias!”",
+    text: "“El equipo de BUGZERO nos brindó soluciones a medida que mejoraron nuestra plataforma. Son profesionales, rápidos y siempre disponibles. ¡Altamente recomendados!”",
     name: "Charon Landinez",
     title: "Product @ Innovate",
     avatarImg: avatar3,
   },
   {
-    text: "“Es un orgullo saber que garabatos es un estudio creativo de Villavicencio.”",
+    text: "“Trabajar con BUGZERO fue un placer. Cumplieron con todas nuestras expectativas y la calidad del producto final fue excelente. ¡Muy satisfechos con su trabajo!”",
     name: "Tatiana",
     title: "CTO @ Tech Solutions",
     avatarImg: avatar4,
@@ -130,3 +123,32 @@ export const socialLinks = [
     href: "https://www.linkedin.com/company/studiogarabatos",
   },
 ];
+
+
+export const teamMembers = [
+  {
+    name: "Sara Sofía Alzate",
+    role: "CEO & Fundadora",
+    description: "Líder de la visión estratégica y la dirección general de la empresa.",
+    background: "bg-gradient-to-r from-purple-400/30 to-black",
+    borderColor: "border-[rgba(102,77,127,0.35)]",
+    color: "#b582eb",
+  },
+  {
+    name: "James Fernando Galvis",
+    role: "CTO (Director de Tecnología)",
+    description: "Responsable del desarrollo e innovación tecnológica.",
+    background: "bg-[linear-gradient(to_top_right,rgb(125,216,205,0.35),rgb(0,0,0,.2))]",
+    borderColor: "border-[rgba(125,216,205,0.35)]",
+    color: "#7dd8cd",
+  },
+  {
+    name: "Santiago Suescun",
+    role: "Desarrollador Full Stack",
+    description: "Encargado de la creación de aplicaciones móviles y web.",
+    background: "bg-[linear-gradient(to_bottom_left,rgb(224,255,87,0.35),black)]",
+    borderColor: "border-[rgba(224,255,87,0.35)]",
+    color: "#e0ff57",
+  },
+  
+]

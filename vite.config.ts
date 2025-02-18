@@ -11,7 +11,7 @@ export default defineConfig({
   },
   server: {
     allowedHosts: [
-      "heron-easy-indirectly.ngrok-free.app", // Añade el dominio de ngrok aquí
+      "warm-precious-pig.ngrok-free.app", // Añade el dominio de ngrok aquí
     ],
   },
 });

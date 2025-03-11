@@ -3,6 +3,9 @@ import charito from "@/assets/images/charito.png";
 import co from "@/assets/images/co.png";
 import hato from "@/assets/images/hato.png";
 import specialized from "@/assets/images/specialized.png";
+import sara from "@/assets/images/sara.jpg";
+import santiago from "@/assets/images/santiago.jpg";
+import James from "@/assets/images/james.jpg";
 
 import avatar2 from "@/assets/images/avatar-2.png";
 import avatar3 from "@/assets/images/avatar-3.png";
@@ -128,6 +131,7 @@ export const socialLinks = [
 export const teamMembers = [
   {
     name: "Sara Sofía Alzate",
+    image:sara,
     role: "CEO & Fundadora",
     description: "Líder de la visión estratégica y la dirección general de la empresa.",
     background: "bg-gradient-to-r from-purple-400/30 to-black",
@@ -136,6 +140,7 @@ export const teamMembers = [
   },
   {
     name: "James Fernando Galvis",
+    image:James,
     role: "Director de Tecnología",
     description: "Responsable del desarrollo e innovación tecnológica.",
     background: "bg-[linear-gradient(to_top_right,rgb(125,216,205,0.35),rgb(0,0,0,.2))]",
@@ -144,6 +149,7 @@ export const teamMembers = [
   },
   {
     name: "Santiago Suescun",
+    image:santiago,
     role: "Desarrollador Full Stack",
     description: "Encargado de la creación de aplicaciones móviles y web.",
     background: "bg-[linear-gradient(to_bottom_left,rgb(224,255,87,0.35),black)]",

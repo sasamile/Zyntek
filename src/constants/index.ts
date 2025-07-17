@@ -134,3 +134,4 @@ export const teamMembers = [
     color: "#fff", // violeta suave
   },
 ];
+

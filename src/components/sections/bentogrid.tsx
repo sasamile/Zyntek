@@ -134,14 +134,6 @@ export default function BentoGridDemo() {
       icon: null,
     },
     {
-      // The Power of Communication (with video)
-      title: "El poder de la comunicación",
-      description: "La comunicación efectiva es clave para el éxito de cualquier proyecto tecnológico. En ZYNTEK, fomentamos la colaboración y el diálogo para lograr resultados extraordinarios.",
-      header: <VideoHeader />,
-      icon: <MessageSquareMore className="h-4 w-4 text-neutral-500" />, // Using a new icon from lucide-react
-      className: "md:col-span-2 ", // This applies to the BentoGridItem itself for spanning columns
-    },
-    {
       // Innovación Card
       title: null,
       description: null,
@@ -154,6 +146,15 @@ export default function BentoGridDemo() {
       ),
       icon: null,
     },
+    {
+      // The Power of Communication (with video)
+      title: "El poder de la comunicación",
+      description: "La comunicación efectiva es clave para el éxito de cualquier proyecto tecnológico. En ZYNTEK, fomentamos la colaboración y el diálogo para lograr resultados extraordinarios.",
+      header: <VideoHeader />,
+      icon: <MessageSquareMore className="h-4 w-4 text-neutral-500" />, // Using a new icon from lucide-react
+      className: "md:col-span-2 ", // This applies to the BentoGridItem itself for spanning columns
+    },
+
 
 
   ]

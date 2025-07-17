@@ -30,9 +30,11 @@ export function Header() {
       transition={{ duration: 0.35, ease: "easeInOut" }}
       className="fixed top-0 w-full h-[85px] flex items-center z-10 px-4"
     >
-      <div className="container">
+      <div className="w-full mx-12 mt-4">
         <div className="flex items-center justify-center md:justify-between">
-          <Logo className="h-20 w-auto" />
+       
+            <Logo className="h-14 w-auto" /> 
+          
           <NavItems />
         </div>
       </div>

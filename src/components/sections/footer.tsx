@@ -10,12 +10,12 @@ export function Footer() {
             <div className="md:hidden mb-4">
               <Logo className="h-9 w-auto" />
             </div>
-            <strong>&copy; 2024 BUGZERO</strong>
+            <strong>&copy; 2025 ZYNTEK</strong>
             <p>Villavicencio, Meta - Colombia</p>
           </div>
           <div className="max-md:hidden flex flex-col items-center">
-            <h1 className="text-2xl md:leading-none font-semibold text-center tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138,.5))] text-transparent bg-clip-text">
-              BUGZERO
+            <h1 className="text-2xl md:leading-none font-semibold text-center tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(75,115,203,.5))] text-transparent bg-clip-text">
+              ZYNTEK
             </h1>
           </div>
           <div>

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 import { useRef } from "react";
 import { teamMembers } from "@/constants";
+import { BackgroundGradient } from "../ui/background-gradient";
 
 export function TeamSection() {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -22,7 +23,7 @@ export function TeamSection() {
         </div>
         <div
           ref={containerRef}
-          className="flex max-md:flex-col overflow-x-auto pb-8 gap-6 snap-x snap-mandatory justify-center items-center"
+          className="flex max-md:flex-col min-h-[650px] min-w-full  overflow-x-auto pb-8 gap-6 snap-x snap-mandatory justify-center items-center"
           style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
         >
           {teamMembers.map(
@@ -30,7 +31,6 @@ export function TeamSection() {
               {
                 name,
                 role,
-                description,
                 background,
                 borderColor,
                 color,
@@ -38,50 +38,47 @@ export function TeamSection() {
               },
               i
             ) => (
-              <motion.div
-                key={i}
-                className="flex-shrink-0 md:w-[350px] snap-center"
-                initial={{ opacity: 0, x: 100 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                transition={{ duration: 0.5, delay: i * 0.1 }}
-              >
-                <motion.div
-                  whileHover={{ scale: 1.05, rotate: i % 2 === 0 ? -3 : 3 }}
-                  className={cn(
-                    "flex flex-col items-center justify-center gap-4 h-[200px] md:h-[500px] bg-black rounded-2xl border p-6",
-                    background,
-                    borderColor
-                  )}
-                >
-                  <div className="w-24 h-24 md:w-32 md:h-32 rounded-full overflow-hidden">
-                    <img
-                      src={Image}
-                      alt={name}
-                      width={150}
-                      height={150}
-                      className="w-full h-full object-cover"
-                    />
-                  </div>
+              <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 0.5, delay: i * 0.1 }}>
+                <BackgroundGradient className="rounded-[22px]  bg-white dark:bg-zinc-900">
 
-                  <h3
-                    className="text-xl md:text-2xl text-center tracking-tight uppercase font-bold"
-                    style={{ color }}
+                  <motion.div
+                    key={i}
+                    className="flex-shrink-0 md:w-[350px] snap-center"
+
                   >
-                    {role}
-                  </h3>
-                  <h2
-                    className="text-3xl md:text-4xl text-center tracking-tighter uppercase font-extrabold leading-[90%]"
-                    style={{ color }}
-                  >
-                    {name}
-                  </h2>
-                  <p
-                    className="text-sm sm:text-base w-[90%] text-center opacity-70"
-                    style={{ color }}
-                  >
-                    {description}
-                  </p>
-                </motion.div>
+                    <motion.div
+                      whileHover={{ scale: 1.05, }}
+                      className={cn(
+                        "flex flex-col items-center justify-center gap-4 h-[500px]  md:h-[400px] bg-black rounded-2xl border p-6",
+                        background,
+                        borderColor
+                      )}
+                    >
+                      <div className="w-44 h-44 md:w-32 md:h-32 rounded-3xl overflow-hidden">
+                        <img
+                          src={Image}
+                          alt={name}
+                          width={150}
+                          height={400}
+                          className="w-full h-full object-cover"
+                        />
+                      </div>
+
+                      <h3
+                        className="text-xl md:text-2xl text-center tracking-tight uppercase font-bold"
+                        style={{ color }}
+                      >
+                        {role}
+                      </h3>
+                      <h2
+                        className="text-3xl md:text-3xl text-center tracking-tighter uppercase font-extrabold leading-[90%]"
+                        style={{ color }}
+                      >
+                        {name}
+                      </h2>
+                    </motion.div>
+                  </motion.div>
+                </BackgroundGradient>
               </motion.div>
             )
           )}

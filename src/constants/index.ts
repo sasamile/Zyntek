@@ -3,7 +3,6 @@ import charito from "@/assets/images/charito.png";
 import co from "@/assets/images/co.png";
 import hato from "@/assets/images/hato.png";
 import specialized from "@/assets/images/specialized.png";
-import sara from "@/assets/images/sara.jpg";
 import santiago from "@/assets/images/santiago.jpg";
 import James from "@/assets/images/james.jpg";
 
@@ -14,7 +13,6 @@ import avatar4 from "@/assets/images/avatar-4.png";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaTiktok } from "react-icons/fa";
-import { FaBehance } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export const navLinks = [
@@ -30,57 +28,50 @@ export const navLinks = [
     label: "Servicios",
     href: "#services",
   },
-  {
-    label: "Testimonios",
-    href: "#testimonials",
-  },
 ];
 
 export const partnerships = [loducode, charito, hato, specialized, co];
 
 export const services = [
   {
-    title: " Desarrollo Movil",
+    title: "Desarrollo Movil",
     description:
       "Creamos apps nativas e híbridas con  React Native, optimizadas para iOS y Android. Implementamos funciones avanzadas como notificaciones push, integración con APIs y geolocalización, garantizando una experiencia fluida y eficiente",
-    background: "bg-gradient-to-r from-purple-400/30 to-black",
-    borderColor: "border-[rgba(102,77,127,0.35)]",
-    color: "#b582eb",
+    background: "bg-gradient-to-br from-[#22335b] via-[#6d28d9] to-black",
+    borderColor: "border-white/15",
+    color: "#fff",
   },
   {
     title: "Desarrollo Web ",
     description:
       "Diseñamos y desarrollamos aplicaciones web dinámicas y escalables con React, Next.js y TypeScript. Nos enfocamos en rendimiento, accesibilidad y diseño responsive, además de crear CMS personalizados para una gestión eficiente del contenido.",
-    background:
-      "bg-[linear-gradient(to_top_right,rgb(125,216,205,0.35),rgb(0,0,0,.2))]",
-    borderColor: "border-[rgba(125,216,205,0.35)]",
-    color: "#7dd8cd",
+    background: "bg-gradient-to-br from-[#4477c3] via-[#374151] to-[#7c3aed]",
+    borderColor: "border-white/15",
+    color: "#fff",
   },
   {
     title: "Backends Solidos",
     description:
       "Desarrollamos APIs robustas y seguras con Django, Node.js y Express, utilizando bases de datos como PostgreSQL y Prisma. Aplicamos buenas prácticas en autenticación y seguridad, integrando sistemas como Clerk y Auth.js para proteger la información.",
-    background:
-      "bg-[linear-gradient(to_bottom_left,rgb(224,255,87,0.35),black)]",
-    borderColor: "border-[rgba(224,255,87,0.35)]",
-    color: "",
+    background: "bg-gradient-to-br from-[#22335b] via-[#0e766e] to-[#374151]",
+    borderColor: "border-white/15",
+    color: "#fff",
   },
   {
     title: "Optimización y Seguridad",
     description:
       "Garantizamos sitios web rápidos y seguros con pruebas de rendimiento, optimización SEO y estrategias de ciberseguridad. Protegemos los datos y fortalecemos la infraestructura tecnológica de cada proyecto.",
-    background:
-      "bg-[linear-gradient(to_top_right,rgb(125,216,205,0.35),rgb(0,0,0,.2))]",
-    borderColor: "border-[rgba(125,216,205,0.35)]",
-    color: "#7dd8cd",
+    background: "bg-gradient-to-br from-[#22335b] via-[#a21caf] to-[#374151]",
+    borderColor: "border-white/15",
+    color: "#fff",
   },
   {
     title: "Inteligencia Artificial",
     description:
       "Optimizamos procesos con inteligencia artificial y automatización, implementando modelos de análisis de datos y algoritmos personalizados. Ayudamos a las empresas a mejorar la eficiencia con soluciones inteligentes y adaptadas a sus necesidades.",
-    background: "bg-gradient-to-r from-[#f8b5d0]/30 to-black",
-    borderColor: "border-[rgba(248,181,208,0.35)]",
-    color: "#f8b5d0",
+    background: "bg-gradient-to-br from-[#22335b] via-[#7c3aed] to-[#4477c3]",
+    borderColor: "border-[#4477c3]",
+    color: "#fff",
   },
 ];
 
@@ -106,10 +97,6 @@ export const testimonials = [
 ];
 export const socialLinks = [
   {
-    Icon: FaBehance,
-    href: "https://www.behance.net/studiogarabatos",
-  },
-  {
     Icon: FaWhatsapp,
     href: "https://wa.link/pzfz8i",
   },
@@ -127,34 +114,23 @@ export const socialLinks = [
   },
 ];
 
-
 export const teamMembers = [
   {
-    name: "Sara Sofía Alzate",
-    image:sara,
-    role: "CEO & Fundadora",
-    description: "Líder de la visión estratégica y la dirección general de la empresa.",
-    background: "bg-gradient-to-r from-purple-400/30 to-black",
-    borderColor: "border-[rgba(102,77,127,0.35)]",
-    color: "#b582eb",
-  },
-  {
     name: "James Fernando Galvis",
-    image:James,
-    role: "Director de Tecnología",
-    description: "Responsable del desarrollo e innovación tecnológica.",
-    background: "bg-[linear-gradient(to_top_right,rgb(125,216,205,0.35),rgb(0,0,0,.2))]",
-    borderColor: "border-[rgba(125,216,205,0.35)]",
-    color: "#7dd8cd",
+    image: James,
+    role: "CEO",
+    background:
+      "bg-[linear-gradient(to_top_right,rgb(255,255,255,.08),rgb(0,0,0,.2))]",
+    borderColor: "border-white/10",
+    color: "#fff", // azul elegante
   },
   {
-    name: "Santiago Suescun",
-    image:santiago,
-    role: "Desarrollador Full Stack",
-    description: "Encargado de la creación de aplicaciones móviles y web.",
-    background: "bg-[linear-gradient(to_bottom_left,rgb(224,255,87,0.35),black)]",
-    borderColor: "border-[rgba(224,255,87,0.35)]",
-    color: "#e0ff57",
+    name: "Santiago Andres Suescun",
+    image: santiago,
+    role: "CTO",
+    background:
+      "bg-[linear-gradient(to_top_right,rgb(255,255,255,.08),rgb(0,0,0,.2))]",
+    borderColor: "border-white/10",
+    color: "#fff", // violeta suave
   },
-  
-]
+];

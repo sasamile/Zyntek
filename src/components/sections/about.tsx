@@ -11,7 +11,7 @@ import {
 import { useEffect, useRef, useState } from "react";
 
 const introductionText =
-  "Somos BUGZERO, la base fundamental para construir soluciones digitales sólidas y escalables. Transformamos ideas en plataformas tecnológicas innovadoras con un enfoque en modularidad, rendimiento y seguridad.";
+  "Somos ZYNTEK, la base fundamental para construir soluciones digitales sólidas y escalables. Transformamos ideas en plataformas tecnológicas innovadoras con un enfoque en modularidad, rendimiento y seguridad.";
 
 const words = introductionText.split(" ");
 
@@ -93,11 +93,11 @@ function AboutTab({ title }: { title: string }) {
     <div
       ref={tabRef}
       id="about"
-      className="relative lg:flex-1 flex items-center gap-2.5 p-2.5 rounded-xl border border-white/15 bg-gradient-to-r from-purple-400/30 to-black"
+      className="relative lg:flex-1 flex items-center gap-2.5 p-2.5 rounded-xl border border-white/15 bg-gradient-to-r from-blue-400/30 to-black"
     >
       <motion.div
         style={{ maskImage }}
-        className="absolute inset-0 -mx-px rounded-xl border border-[#a369ff]"
+        className="absolute inset-0 -mx-px rounded-xl border border-[#4477c3]"
       />
 
       <p className="font-medium text-white/80">{title}</p>

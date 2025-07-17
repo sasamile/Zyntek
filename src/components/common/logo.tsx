@@ -6,11 +6,6 @@ export function Logo(props: ImgHTMLAttributes<HTMLImageElement>) {
   const handleNavItemClick = (e: MouseEvent<HTMLDivElement>) => {
     e.preventDefault();
 
-    // const url = new URL(e.currentTarget.href);
-    // const hash = url.hash;
-
-    // console.log(hash)
-
     const target = document.querySelector("#home");
 
     if (!target) return;
@@ -21,7 +16,11 @@ export function Logo(props: ImgHTMLAttributes<HTMLImageElement>) {
   return (
     <Magnetic>
       <div className="cursor-pointer" onClick={handleNavItemClick}>
-        <img src={logo} {...props} />
+        <div className="flex items-center">
+
+          <img src={logo} {...props} />
+          <h3 className="text-3xl -ml-1.5 font-bold mt-5">YNTEK</h3>
+        </div>
       </div>
     </Magnetic>
   );

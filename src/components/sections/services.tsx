@@ -17,7 +17,7 @@ export function Services() {
         <div className="flex flex-col items-center w-full max-w-3xl mx-auto">
           {services.map(
             ({ title, description, background, borderColor, color }, i) => (
-              <div key={i} className="sticky top-[20%] h-[100vh] max-w-[650px] w-full mx-auto px-10">
+              <div key={i} className="sticky top-[20%] h-[100vh] max-w-[850px] w-full mx-auto px-10">
                 <div
                   style={{
                     transform: `rotate(${i % 2 === 0 ? -3 : 3}deg)`,
@@ -29,8 +29,7 @@ export function Services() {
                   )}
                 >
                   <h2
-                    className="text-3xl md:text-[60px] text-center tracking-tighter uppercase font-extrabold leading-[90%] md:px-10"
-                    style={{ color }}
+                    className="text-3xl md:text-[60px] text-center tracking-tighter uppercase font-extrabold leading-[90%] md:px-10 text-white drop-shadow"
                   >
                     {title}
                   </h2>

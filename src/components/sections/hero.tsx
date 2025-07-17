@@ -47,7 +47,7 @@ export function Hero() {
       />
       <div className="relative container h-full flex items-center justify-center">
         <div>
-          <h1 className="text-6xl md:text-7xl lg:text-8xl md:leading-none font-semibold text-center tracking-tighter ">
+          <h1 className="text-5xl  md:text-7xl lg:text-8xl md:leading-none font-semibold text-center tracking-tighter ">
             Donde las ideas se convierten en soluciones
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-white/70 text-center mt-5 max-w-2xl mx-auto">
